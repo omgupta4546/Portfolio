@@ -1,0 +1,92 @@
+body{
+    background-color: #00246B;
+    
+    
+}
+
+#navbar{
+    background-color: #e2e0db;
+}
+
+.container{
+    background-color: #CADCFC;
+    border: 5px black solid;
+    border-radius: 20px;
+    
+}
+
+.navbar-brand{
+    margin-right: 70px;
+}
+
+.navtab{
+    margin-right: 30px;
+}
+
+.img-circle{
+    border-radius: 50%;
+}
+
+.btn-primary:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 10px 5px 5px #d2d0cb;
+}
+
+.fs-1{
+    letter-spacing: 3px;
+    color: #00246B;
+}
+
+.section{
+   text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    
+    gap: 20px;
+    flex-shrink: 1;
+}
+
+.card{
+    width: 300px;
+    padding: 20px;
+    box-shadow: 5px 5px 0px #333;
+    transition: transform 0.3s;
+}
+
+.section h2{
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.card-title{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-icon{
+    text-align: left;
+}
+
+.card-description{
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+}
+
+.img-circle-2{
+    border-radius: 20%;
+}
