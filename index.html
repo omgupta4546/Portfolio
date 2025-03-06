@@ -11,33 +11,25 @@
 <body>
     <section id="navbar">
         <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
-          <img src="./coding.png" alt="Bootstrap" width="128" height="102" loading="lazy" class="navbar-brand">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active navtab" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navtab" href="#">What I do</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navtab" href="mailto:omgupta6325@gmail.com">Gmail id</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navtab" href="https://www.linkedin.com/in/om-gupta-439049307/">Linkedin</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navtab" href="https://github.com/omgupta4546">Github</a>
-              </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container-fluid">
+              <img src="./coding.png" alt="Bootstrap" width="128" height="102" loading="lazy" class="navbar-brand">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                      <li class="nav-item"><a class="nav-link active navtab" aria-current="page" href="#">Home</a></li>
+                      <li class="nav-item"><a class="nav-link navtab" href="#">What I do</a></li>
+                      <li class="nav-item"><a class="nav-link navtab" href="mailto:your-email@gmail.com">Gmail ID</a></li>
+                      <li class="nav-item"><a class="nav-link navtab" href="https://www.linkedin.com/in/om-gupta-439049307/">LinkedIn</a></li>
+                      <li class="nav-item"><a class="nav-link navtab" href="https://github.com/omgupta4546">GitHub</a></li>
+                  </ul>
+              </div>
           </div>
-        </div>
       </nav>
+      
     </section>
     <section id="about-me">
       <!-- about me -->
@@ -45,7 +37,7 @@
       <div class="col-xxl-12 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
-            <img src="./profile.avif" class="d-block mx-lg-auto img-fluid img-circle" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            <img src="./profile.avif" class="d-block mx-lg-auto img-fluid img-circle" alt="Bootstrap Themes" width="400" height="400" loading="lazy">
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi, I'm Om gupta,
@@ -76,22 +68,46 @@
                 <div class="card-description fs-3">Websites don't have to be static; I love making pages come to life.</div>
             </div>
         </div>
-        <div class=" col-xxl-12 px-4 py-5">
-          <h2 class="fs-1 fw-bold">My project</h2>
+        <div class="col-xxl-12 px-4 py-5">
+          <h2 class="fs-1 fw-bold">My Projects</h2>
+      
+          <!-- Simon Game Project -->
           <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
-              
-              <img src="./iphone.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" height="500" loading="lazy">
-            </div>
-            <div class="col-lg-6">
-              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 card-icon">Tin Dog</h1>
-              <p class="lead fs-3 card-icon">This playful dog tinder app is designed for GenZ and their love for dogs. I was experimenting with css gradient and bootstrap to bring you a truly pawsome user experience.</p>
-              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                <a href="https://omgupta4546.github.io/project-/"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">See project</button></a>
+              <div class="col-10 col-sm-8 col-lg-6">
+                  <img src="./simon-game.png" class="d-block mx-lg-auto img-fluid" alt="Simon Game" height="500" loading="lazy">
               </div>
-            </div>
+              <div class="col-lg-6">
+                  <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 card-icon">Simon Game</h1>
+                  <p class="lead fs-3 card-icon">
+                      Simon Game is a fun memory-based game built using HTML, CSS, and JavaScript. Test your memory and see how long you can keep up with the pattern!
+                  </p>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                      <a href="https://omgupta4546.github.io/simon-game/">
+                          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">See Project</button>
+                      </a>
+                  </div>
+              </div>
           </div>
-        </div>
+      
+          <!-- Tin Dog Project -->
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                  <img src="./iphone.png" class="d-block mx-lg-auto img-fluid" alt="TinDog App" height="500" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                  <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 card-icon">Tin Dog</h1>
+                  <p class="lead fs-3 card-icon">
+                      This playful dog tinder app is designed for GenZ and their love for dogs. I was experimenting with CSS gradients and Bootstrap to bring you a truly pawsome user experience.
+                  </p>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                      <a href="https://omgupta4546.github.io/project-/">
+                          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">See Project</button>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
       </div>
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-lg-6">
