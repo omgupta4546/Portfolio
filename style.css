@@ -1,31 +1,56 @@
 body{
     background-color: #00246B;
-    
-    
 }
 
-#navbar{
+#navbar {
     background-color: #e2e0db;
+    padding: 10px 0;
 }
 
-.container{
-    background-color: #CADCFC;
-    border: 5px black solid;
-    border-radius: 20px;
-    
+.navtab {
+    margin-right: 30px;
+    font-weight: bold;
+    color: black !important;
 }
+
+
+.container {
+    background-color: #CADCFC;
+    border: 3px solid #ffffff; /* Soft border */
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #e2e0db;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for better visibility */
+}
+
+
+
 
 .navbar-brand{
     margin-right: 70px;
 }
 
-.navtab{
-    margin-right: 30px;
+.img-circle {
+    border-radius: 50%;
+    width: 350px;  /* Width same rakhna hai */
+    height: 400px; /* Height badha di */
+    object-fit: cover;
+    object-position: center top; /* Image ko top se adjust karna */
 }
 
-.img-circle{
-    border-radius: 50%;
-}
+
+
+
+
+
+
 
 .btn-primary:hover{
     background-color: white;
@@ -57,6 +82,22 @@ body{
     transition: transform 0.3s;
 }
 
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.btn-primary {
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 10px 5px 5px #d2d0cb;
+    transform: scale(1.05);
+}
+
+
 .section h2{
     font-size: 2rem;
     color: #333;
@@ -79,13 +120,15 @@ body{
 
 @media (max-width: 768px) {
     .card {
-        width: 100%;
-        
+        width: 90%;
+        margin-bottom: 15px;
     }
-    .cards{
-        flex-wrap: wrap;
+    .cards {
+        flex-direction: column;
+        align-items: center;
     }
 }
+
 
 .img-circle-2{
     border-radius: 20%;
